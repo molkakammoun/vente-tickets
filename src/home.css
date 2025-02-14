@@ -1,0 +1,47 @@
+
+  .header-text {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+  }
+  .card {
+    width: 18rem;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Espacement au-dessus de chaque carte */
+    margin-bottom: 30px; /* Espacement vertical entre les cartes */
+  }
+  
+  .card-img-top {
+    border-radius: 10px 10px 0 0; /* Coins arrondis sur l'image */
+    object-fit: cover; /* Couvre sans déformation */
+  }
+  
+  .card-body {
+    background-color: #f8f9fa; /* Fond léger */
+    padding: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #6c757d; /* Couleur douce pour le texte */
+  }
+  
+  .card-container {
+    position: relative;
+    z-index: 3;
+    margin-top: 50px; /* Décalage des cartes */
+    display: flex;
+    justify-content: center; /* Centrer les cartes horizontalement */
+    flex-wrap: wrap; /* Les cartes vont se réarranger si l'écran est trop petit */
+    gap: 20px; /* Espace horizontal entre les cartes */
+    padding: 0 20px; /* Marge horizontale */
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; /* Les cartes prennent toute la largeur sur petits écrans */
+    }
+  }
+  

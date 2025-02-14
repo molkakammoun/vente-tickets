@@ -16,6 +16,7 @@ header h1 {
 /* Style de la navbar */
 .navbar {
   background-color: #495057 !important; /* Couleur légèrement plus claire */
+  margin-top: 0;
 }
 
 /* Style des liens de la navbar */
@@ -66,24 +67,3 @@ header h1 {
   background-color: #17a2b8;
   color: white;
 } 
-.card {
-  width: 18rem;
-  border-radius: 10px; /* Example for rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: 30px; /* Shadow effect */
-}
-
-.card-img-top {
-  border-radius: 10px 10px 0 0; /* Round the top corners of the image */
-  object-fit: cover; /* Ensure the image covers the top area without distortion */
-}
-
-.card-body {
-  background-color: #f8f9fa; /* Light background color */
-  padding: 1.25rem;
-}
-
-.card-text {
-  font-size: 14px;
-  color: #6c757d; /* Subtle text color */
-}
